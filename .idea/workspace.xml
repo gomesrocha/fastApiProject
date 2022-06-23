@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7f56ffd-7808-450c-91a9-17261a849942" name="Changes" comment="Implantando o projeto com FastAPI #9200">
+    <list default="true" id="c7f56ffd-7808-450c-91a9-17261a849942" name="Changes" comment="Implantando o projeto com FastAPI #1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +119,7 @@
       <workItem from="1652184495077" duration="3208000" />
       <workItem from="1654515341911" duration="5655000" />
       <workItem from="1655211063510" duration="4974000" />
-      <workItem from="1655862341630" duration="9115000" />
+      <workItem from="1655862341630" duration="9825000" />
     </task>
     <task id="LOCAL-00001" summary="Teste">
       <created>1651620002950</created>
@@ -154,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655987184730</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Implantando o projeto com FastAPI #1">
+      <created>1655987820196</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1655987820196</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +186,8 @@
     <MESSAGE value="Create Python FastAPI Project." />
     <MESSAGE value="Update Project use services" />
     <MESSAGE value="Implantando o projeto com FastAPI #9200" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implantando o projeto com FastAPI #9200" />
+    <MESSAGE value="Implantando o projeto com FastAPI #1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implantando o projeto com FastAPI #1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/fastApiProject$main.coverage" NAME="main Coverage Results" MODIFIED="1654600855049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

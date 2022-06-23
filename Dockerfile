@@ -1,11 +1,20 @@
-FROM python:3.8
+FROM python:3.8-alpine3.14
+LABEL maintainer = "Fabio Gomes Rocha <gomesrocha@gmail.com>"
+WORKDIR /app
 
-WORKDIR /code
+RUN apt-get update && apt-get install -y --no-install-recommends gcc
 
-COPY ./requirements.txt /code/requirements.txt
+RUN python -m pip install --upgrade pip
+
+COPY ./requirements.txt /app/requirements.txt
 
 RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt
 
-COPY . /code/app
+
+COPY . /app
+
+ENV PYTHONDONTWRITEBYTECODE 1
+ENV PYTHONUNBUFFERED 1
+
 
 CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "80"]
